@@ -20,6 +20,11 @@
             "Notadd\\Monaco\\Tests\\": "tests/"
         }
     },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    },
     "require": {
         "php": ">=7.0"
     },

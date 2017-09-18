@@ -1,4 +1,13 @@
 {
     "name": "notadd/ext-monaco",
+    "keywords": ["notadd", "extension", "monaco"],
+    "homepage": "https://notadd.com",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Notadd",
+            "email": "notadd@ibenchu.com"
+        }
+    ],
     "type": "notadd-extension"
 }

@@ -9,5 +9,15 @@
             "email": "notadd@ibenchu.com"
         }
     ],
-    "type": "notadd-extension"
+    "type": "notadd-extension",
+    "autoload": {
+        "psr-4": {
+            "Notadd\\Monaco\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Notadd\\Monaco\\Tests\\": "tests/"
+        }
+    }
 }

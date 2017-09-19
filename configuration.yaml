@@ -6,4 +6,4 @@ author:
     - notadd@ibenchu.com
 provider: Notadd\Monaco\Extension
 publishes:
-    assets/extensions/notadd/monaco: resources/mixes
+    assets/extensions/notadd/monaco/ediotr: resources/mixes/editor

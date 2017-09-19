@@ -5,3 +5,5 @@ author:
     - Notadd
     - notadd@ibenchu.com
 provider: Notadd\Monaco\Extension
+publishes:
+    assets/extensions/notadd/monaco: resources/mixes

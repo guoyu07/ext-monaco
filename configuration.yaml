@@ -4,3 +4,4 @@ description:
 author:
     - Notadd
     - notadd@ibenchu.com
+provider: Notadd\Monaco\Extension

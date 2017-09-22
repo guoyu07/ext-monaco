@@ -8,12 +8,12 @@
  */
 namespace Notadd\Monaco;
 
-use Notadd\Foundation\Extension\Abstracts\Extension as AbstractExtension;
+use Notadd\Foundation\Addon\Abstracts\Addon as AbstractExtension;
 
 /**
  * Class Extension.
  */
-class Extension extends AbstractExtension
+class Addon extends AbstractExtension
 {
     /**
      * Boot extension.

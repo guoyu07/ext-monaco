@@ -9,7 +9,7 @@
             "email": "notadd@ibenchu.com"
         }
     ],
-    "type": "notadd-extension",
+    "type": "notadd-addon",
     "autoload": {
         "psr-4": {
             "Notadd\\Monaco\\": "src/"

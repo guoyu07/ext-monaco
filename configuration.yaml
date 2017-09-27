@@ -4,6 +4,6 @@ description:
 author:
     - Notadd
     - notadd@ibenchu.com
-provider: Notadd\Monaco\Extension
+provider: Notadd\Monaco\Addon
 publishes:
     assets/extensions/notadd/monaco/ediotr: resources/mixes/editor

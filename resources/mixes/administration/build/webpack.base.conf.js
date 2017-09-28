@@ -9,14 +9,11 @@ function resolve(dir) {
 
 module.exports = {
     entry: {
-        extension: './src/main.js'
+        addon: './src/main.js'
     },
     output: {
         path: config.build.assetsRoot,
-        filename: 'extension.js',
-        publicPath: process.env.NODE_ENV === 'production'
-            ? config.build.assetsPublicPath
-            : config.dev.assetsPublicPath
+        filename: 'addon.js',
     },
     resolve: {
         extensions: ['.js', '.vue', '.json'],

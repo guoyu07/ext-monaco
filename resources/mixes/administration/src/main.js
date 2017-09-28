@@ -1,6 +1,3 @@
-window.console.log('loaded');
+import injection from './helpers/injection';
 
-export default {
-    a: 'dfdfd',
-    b: 'dfsfs',
-};
+export default injection;

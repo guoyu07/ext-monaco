@@ -2,12 +2,18 @@ require('./check-versions')();
 
 process.env.NODE_ENV = 'production';
 
+let buildWebpackConfig = require('./webpack.prod.conf');
 let chalk = require('chalk');
 let config = require('../config');
 let path = require('path');
+let merge = require('webpack-merge');
 let rm = require('rimraf');
 let webpack = require('webpack');
-let webpackConfig = require('./webpack.prod.conf');
+let webpackConfig = merge(buildWebpackConfig, {
+    plugins: [
+        new webpack.ProgressPlugin()
+    ]
+});
 
 rm(path.join(config.build.assetsRoot, config.build.assetsSubDirectory), err => {
     if (err) throw err;
@@ -27,9 +33,5 @@ rm(path.join(config.build.assetsRoot, config.build.assetsSubDirectory), err => {
         }
 
         console.log(chalk.cyan('  Build complete.\n'));
-        console.log(chalk.yellow(
-            '  Tip: built files are meant to be served over an HTTP server.\n' +
-            '  Opening index.html over file:// won\'t work.\n'
-        ));
     });
 });

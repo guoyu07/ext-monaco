@@ -10,7 +10,7 @@ module.exports = {
         entry: {
             addon: './src/main.js'
         },
-        library: 'notadd-monaco',
+        library: 'notadd/monaco',
         libraryTarget: 'umd',
         productionSourceMap: false,
         // Gzip off by default as many popular static hosts such as

@@ -7,7 +7,7 @@ author:
 provider: Notadd\Monaco\Addon
 assets:
     administration:
-        notadd/mall-gallery:
+        notadd/monaco:
             permissions:
             scripts: assets/addons/notadd/monaco/administration/js/addon.min.js
 publishes:

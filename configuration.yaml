@@ -5,5 +5,11 @@ author:
     - Notadd
     - notadd@ibenchu.com
 provider: Notadd\Monaco\Addon
+assets:
+    administration:
+        notadd/mall-gallery:
+            permissions:
+            scripts: assets/addons/notadd/monaco/administration/js/addon.min.js
 publishes:
     assets/extensions/notadd/monaco/ediotr: resources/mixes/editor
+    assets/addons/notadd/monaco/administration: resources/mixes/administration/dist/assets/addons/notadd/monaco/administration

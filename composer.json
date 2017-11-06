@@ -30,7 +30,7 @@
     },
     "require-dev": {
         "phpunit/phpunit": "~6.0",
-        "notadd/installers": "0.11.*",
+        "notadd/installers": "0.14.*",
         "notadd/testing": "0.1.*"
     }
 }
